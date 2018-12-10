@@ -1,0 +1,21 @@
+#
+# zsh.exports
+#
+# Variable exports from zsh. Sourced from .zshrc
+#
+
+
+# Locale selection
+export LANG=es_ES.UTF-8
+
+
+# SSH things
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+# Set editor
+
+if [[ -n $SSH_CONNECTION ]]; then
+    export EDITOR='nvim'
+else
+    export EDITOR='nvim'
+fi
