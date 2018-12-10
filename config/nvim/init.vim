@@ -1,42 +1,33 @@
-" iaderdor's vimrc
+"    _       _ _         _           
+"   (_)     (_) |       (_)          
+"    _ _ __  _| |___   ___ _ __ ___  
+"   | | '_ \| | __\ \ / / | '_ ` _ \ 
+"   | | | | | | |_ \ V /| | | | | | |
+"   |_|_| |_|_|\__(_)_/ |_|_| |_| |_| from iaderdor
 "
-" This is my personally vimrc. It's inspired in danirod's one.
 "
+" This is my personally init.vim file. It's inspired in danirod's one, between
+" anothers.
 "
 
-" Let's load some plugins with vim-plug!
+
+" 1. Plug loading with vim-plug
+source $HOME/.config/nvim/plugins.vim
 
 
-call plug#begin('~/.local/share/nvim/plugged')
-
-Plug 'scrooloose/nerdtree' " nerdtree is <3
-Plug 'plasticboy/vim-markdown'
-
-call plug#end()
-
-
-" Stay in the future
+" 2. Stay in the future
 set nocompatible
 set history=1000
 set noswapfile
 set nobackup
 
 
-" Disable arrow keys and remap hjkl keys to jklñ
-noremap <Up> <Nop>
-noremap <Down> <Nop>
-noremap <Left> <Nop>
-noremap <Right> <Nop>
-noremap h <Nop>
-noremap j h
-noremap k j
-noremap l k
-noremap ñ l
+" 3. Maps
+source $HOME/.config/nvim/maps.vim
 
-" Mouse things
-set mouse=a
 
-" Indentation options
+" 4. Indentation options
+" TODO: Split in another file. Different options to different languages
 set autoindent              " autoindent always ON.
 set expandtab               " expand tabs
 set shiftwidth=2            " spaces for autoindenting
@@ -51,7 +42,5 @@ set wildmenu            " enable visual wildmenu
 set number              " show line numbers
 set showmatch           " higlight matching parentheses and brackets
 
-
-map <F5> :NERDTreeToggle<CR>
-
 syntax on
+
