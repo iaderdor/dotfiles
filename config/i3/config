@@ -58,8 +58,8 @@ bindsym $mod+r mode "resize"
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 2%+ 
 bindsym XF86AudioLowerVolume exec amixer -q set Master 2%-
 bindsym XF86AudioMute exec amixer -q set Master toggle
-bindsym XF86MonBrightnessUp exec xbacklight -inc 5
-bindsym XF86MonBrightnessDown exec xbacklight -dec 5
+bindsym XF86MonBrightnessUp exec xbacklight -inc 1
+bindsym XF86MonBrightnessDown exec xbacklight -dec 1
 exec xinput set-prop 11 288 1
 
 
