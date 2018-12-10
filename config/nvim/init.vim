@@ -7,12 +7,12 @@
 " Let's load some plugins with vim-plug!
 
 
-"call plug#begin('~/.local/share/nvim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 
-"Plug 'scrooloose/nerdtree' " nerdtree is <3
-"Plug 'plasticboy/vim-markdown'
+Plug 'scrooloose/nerdtree' " nerdtree is <3
+Plug 'plasticboy/vim-markdown'
 
-"call plug#end()
+call plug#end()
 
 
 " Stay in the future
