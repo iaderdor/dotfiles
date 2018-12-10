@@ -33,6 +33,8 @@ noremap k j
 noremap l k
 noremap ñ l
 
+" Mouse things
+set mouse=a
 
 " Indentation options
 set autoindent              " autoindent always ON.
