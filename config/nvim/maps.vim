@@ -17,6 +17,17 @@ noremap k j
 noremap l k
 noremap ñ l
 
+" I just found annoying Alt Gr + 1 = | just to get bol. Remap to ç
+noremap <Bar> <Nop>
+noremap ç <Bar>
+
+
+" Change between split windows with jklñ
+nnoremap <C-J> <C-W><C-H>
+nnoremap <C-K> <C-W><C-J>
+nnoremap <C-L> <C-W><C-K>
+nnoremap <C-Ñ> <C-W><C-L>
+
 
 " Mouse control
 set mouse=a
