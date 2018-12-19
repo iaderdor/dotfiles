@@ -17,7 +17,7 @@ font pango:FiraCode Regular 8
 # --- App bindings ---
 bindsym $mod+t exec konsole
 bindsym $mod+space exec dmenu_run
-
+bindsym Print exec spectacle
 
 # --- Basic bindings ---
 bindsym $mod+Shift+q kill
@@ -131,6 +131,10 @@ exec_always --no-startup-id xmodmap -e "clear lock"
 exec_always --no-startup-id xmodmap -e "keycode 9 = Caps_Lock NoSymbol Caps_Lock"
 exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
 exec_always --no-startup-id xmodmap -e "keycode 135 = Super_L"
+
+# --- Impr pant ---
+
+
 
 # --- Starting apps ---
 exec blueman-applet
