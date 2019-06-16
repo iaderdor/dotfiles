@@ -22,6 +22,10 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh.aliases   #$PATH is defined here
 source ~/.zsh.exports
 
+#RVM
+
+source $HOME/.rvm/scripts/rvm
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 

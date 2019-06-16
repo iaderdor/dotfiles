@@ -41,6 +41,10 @@ set wildmenu            " enable visual wildmenu
 
 set number              " show line numbers
 set showmatch           " higlight matching parentheses and brackets
+set wildmenu
 
 syntax on
 
+
+" 5. Status bar
+source $HOME/.config/nvim/statusbar.vim
