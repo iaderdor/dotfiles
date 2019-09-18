@@ -22,9 +22,10 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh.aliases   #$PATH is defined here
 source ~/.zsh.exports
 
-#RVM
+# rbenv
 
-source $HOME/.rvm/scripts/rvm
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
