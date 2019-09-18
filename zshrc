@@ -13,7 +13,7 @@ ZSH_THEME="agnoster"
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="yyy/mm/dd"
-#plugins=(git)
+#plugins=(git gpg-agent)
 
 source $ZSH/oh-my-zsh.sh
 
