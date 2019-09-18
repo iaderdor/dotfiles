@@ -12,8 +12,8 @@ alias lt="$LATEX_COMPILER --interaction=nonstopmode --synctex=1 --output-directo
 alias lth="$LATEX_COMPILER --interaction=nonstopmode --synctex=1"
 
 # Aliases for folders
-alias chcoyl="cd /home/ikanian/Documentos/Universidad/UCM/Coherencia\ Óptica\ y\ Láser" 
+#alias proyectos="cd ~/Proyectos"
 
 # Other aliases
-alias clipboard="xclip -selection clipboard"
+alias clipboard="xclip -sel clip"
 alias vim="nvim"
