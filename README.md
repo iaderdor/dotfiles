@@ -1,5 +1,4 @@
 # Ismael Aderdor dotfiles
-
 Hi! Those are the dotfiles I use. Moreover, this repo has a file for installing all the apps that I use. Please note that those files are meant to be used with manjaro.
 
 Those dotfiles have the configuration for the next programs:
@@ -32,7 +31,7 @@ After running stow, you should run `fc-cache` to be able to use the fonts.
 Unless some file says the opposite, this project is under the MIT licence.
 
 ```
-Copyright 2015-2018 Ismael Aderdor <info@iaderdor.info>
+Copyright 2015-2019 Ismael Aderdor <info@iaderdor.info>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
