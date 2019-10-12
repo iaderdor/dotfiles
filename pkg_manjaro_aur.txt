@@ -1,8 +1,0 @@
-ruby-rails
-rmv
-megasync
-telegram-desktop-bin
-nodejs-nativefier
-spotify
-boostnote-bin
-discord
