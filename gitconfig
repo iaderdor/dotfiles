@@ -1,0 +1,8 @@
+[user]
+	email = info@iaderdor.info
+	name = Ismael Aderdor
+	signingkey = E68BF7C2964D218A
+[color]
+	ui = auto
+[commit]
+	gpgsign = true
