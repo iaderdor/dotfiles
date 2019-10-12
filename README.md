@@ -1,30 +1,35 @@
 # Ismael Aderdor dotfiles
-Hi! Those are the dotfiles I use. Moreover, this repo has a file for installing all the apps that I use. Please note that those files are meant to be used with manjaro.
 
-Those dotfiles have the configuration for the next programs:
+Hi! Those are the very dotfiles I use.
+
+I'm actually using storing here my dotfiles for the following programs:
 
  - atom
  - neovim
  - tmux
- - i3wm and i3 status bar
-
+ - i3 and i3 status bar
+ - git
 
 
 ## Use
 
-First, you install all the requirements.
+My dotfiles are meant to be managed with stow. Use the next commands to install the dotfiles:
 
-If you are using manjaro:
+```
+stow -v -t ~ zsh tmux git
+stow -v -t ~/.config config
+```
 
-	```bash
-	yaourt -S --noconfirm - < pkg_manjaro.txt
-	yaourt -S --noconfirm - < pkg_manjaro_aur.txt
-	```
+Then, you must install some fonts (TODO™) and run `fc-cache` to be able to use the fonts.
 
-[TODO] Yes, I must do something with the instalation script.
 
-After running stow, you should run `fc-cache` to be able to use the fonts.
+## TODO
 
+Here we go with the typical things I'd want to add to my dotfiles:
+
+ - Add the fonts I use and and how to install them.
+ - Remove the config folder and divide it in a *folder per app* basis.
+ - Look for how automatizing installing packagges for the distros I use.
 
 ## Licence
 
