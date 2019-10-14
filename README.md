@@ -10,6 +10,7 @@ I'm actually using storing here my dotfiles for the following programs:
  - i3 and i3 status bar
  - git
 
+Moreover, there's a script which install all the fonts I want to use from github repos.
 
 ## Use
 
@@ -20,14 +21,18 @@ stow -v -t ~ zsh tmux git
 stow -v -t ~/.config config
 ```
 
-Then, you must install some fonts (TODO™) and run `fc-cache` to be able to use the fonts.
+Then, if you want to install all the fonts I use, you must `cd` into the base folder of the repo and execute the following command:
 
+```
+ruby setup_fonts.rb
+```
+
+This will download and install all the fonts I've chosen for you.
 
 ## TODO
 
 Here we go with the typical things I'd want to add to my dotfiles:
 
- - Add the fonts I use and and how to install them.
  - Remove the config folder and divide it in a *folder per app* basis.
  - Look for how automatizing installing packagges for the distros I use.
 

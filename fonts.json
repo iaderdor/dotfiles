@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Fira Code",
+    "github": "ryanoasis/nerd-fonts",
+    "path":
+    [
+      "patched-fonts/FiraCode/Medium/complete/Fira Code Medium Nerd Font Complete.ttf",
+      "patched-fonts/FiraCode/Bold/complete/Fira Code Bold Nerd Font Complete.ttf",
+      "patched-fonts/FiraCode/Light/complete/Fira Code Light Nerd Font Complete.ttf",
+      "patched-fonts/FiraCode/Regular/complete/Fira Code Regular Nerd Font Complete.ttf",
+      "patched-fonts/FiraCode/Retina/complete/Fira Code Retina Nerd Font Complete.ttf"
+    ]
+  },
+  {
+    "name": "Overpass",
+    "github": "RedHatBrand/Overpass",
+    "path":
+    [
+      "desktop-fonts/overpass/overpass-bold-italic.otf",
+      "desktop-fonts/overpass/overpass-bold.otf",
+      "desktop-fonts/overpass/overpass-extrabold-italic.otf",
+      "desktop-fonts/overpass/overpass-extrabold.otf",
+      "desktop-fonts/overpass/overpass-extralight-italic.otf",
+      "desktop-fonts/overpass/overpass-extralight.otf",
+      "desktop-fonts/overpass/overpass-heavy-italic.otf",
+      "desktop-fonts/overpass/overpass-heavy.otf",
+      "desktop-fonts/overpass/overpass-italic.otf",
+      "desktop-fonts/overpass/overpass-light-italic.otf",
+      "desktop-fonts/overpass/overpass-light.otf",
+      "desktop-fonts/overpass/overpass-regular.otf",
+      "desktop-fonts/overpass/overpass-semibold-italic.otf",
+      "desktop-fonts/overpass/overpass-semibold.otf",
+      "desktop-fonts/overpass/overpass-thin-italic.otf",
+      "desktop-fonts/overpass/overpass-thin.otf"
+    ]
+  },
+  {
+    "name": "Overpass Mono",
+    "github": "RedHatBrand/Overpass",
+    "path":
+    [
+      "desktop-fonts/overpass-mono/overpass-mono-bold.otf",
+      "desktop-fonts/overpass-mono/overpass-mono-light.otf",
+      "desktop-fonts/overpass-mono/overpass-mono-regular.otf",
+      "desktop-fonts/overpass-mono/overpass-mono-semibold.otf"
+    ]
+  },
+  {
+    "name": "Vollkorn",
+    "github": "FAlthausen/Vollkorn-Typeface",
+    "path":
+    [
+      "fonts/Vollkorn-SemiBoldItalic.ttf",
+      "fonts/VollkornSC-ExtraBold.ttf",
+      "fonts/VollkornSC-Medium.ttf",
+      "fonts/Vollkorn-MediumItalic.ttf",
+      "fonts/Vollkorn-Black.ttf",
+      "fonts/VollkornSC-Bold.ttf",
+      "fonts/Vollkorn-Italic.ttf",
+      "fonts/Vollkorn-BlackItalic.ttf",
+      "fonts/Vollkorn-BoldItalic.ttf",
+      "fonts/Vollkorn-ExtraBoldItalic.ttf",
+      "fonts/Vollkorn-Medium.ttf",
+      "fonts/VollkornSC-SemiBold.ttf",
+      "fonts/Vollkorn-SemiBold.ttf",
+      "fonts/Vollkorn-ExtraBold.ttf",
+      "fonts/VollkornSC-Regular.ttf",
+      "fonts/Vollkorn-Regular.ttf",
+      "fonts/VollkornSC-Black.ttf",
+      "fonts/Vollkorn-Bold.ttf",
+    ]
+  }
+]
