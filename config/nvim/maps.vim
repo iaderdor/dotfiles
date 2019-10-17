@@ -28,6 +28,19 @@ nnoremap <C-K> <C-W><C-J>
 nnoremap <C-L> <C-W><C-K>
 nnoremap <C-Ñ> <C-W><C-L>
 
+" Toggle absolute or relative line number
+
+function! ToggleRelativeLineNumber()
+  if(&nu == 1)
+    set nu!
+      set rnu
+    else
+      set nornu
+      set nu
+  endif
+endfunction
+
+nnoremap <F4> :call ToggleRelativeLineNumber()<CR>
 
 " Mouse control
 set mouse=a
