@@ -17,7 +17,7 @@ Moreover, there's a script which install all the fonts I want to use from github
 My dotfiles are meant to be managed with stow. Use the next commands to install the dotfiles:
 
 ```
-stow -v -t ~ zsh tmux git
+stow -v -t ~ zsh tmux git yaourt
 stow -v -t ~/.config config
 ```
 
@@ -28,6 +28,7 @@ ruby setup_fonts.rb
 ```
 
 This will download and install all the fonts I've chosen for you.
+
 
 ## TODO
 
