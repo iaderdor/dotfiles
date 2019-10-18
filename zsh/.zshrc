@@ -8,7 +8,7 @@ LATEX_OUTPUT="pdf"
 
 
 # Oh-my-zsh things
-export ZSH=/home/ikanian/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="agnoster"
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
