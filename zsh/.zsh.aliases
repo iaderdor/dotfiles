@@ -14,6 +14,10 @@ alias lth="$LATEX_COMPILER --interaction=nonstopmode --synctex=1"
 # Aliases for folders
 #alias proyectos="cd ~/Proyectos"
 
+# Alias for checking if neovim is installed
+if [ f "/usr/bin/nvim" ]; then
+  alias vim="nvim"
+fi
+
 # Other aliases
 alias clipboard="xclip -sel clip"
-alias vim="nvim"
