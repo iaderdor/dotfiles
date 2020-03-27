@@ -15,7 +15,7 @@ alias lth="$LATEX_COMPILER --interaction=nonstopmode --synctex=1"
 #alias proyectos="cd ~/Proyectos"
 
 # Alias for checking if neovim is installed
-if [ f "/usr/bin/nvim" ]; then
+if [ -f "/usr/bin/nvim" ]; then
   alias vim="nvim"
 fi
 
