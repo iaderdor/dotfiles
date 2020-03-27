@@ -26,7 +26,7 @@ noremap ç <Bar>
 nnoremap <C-J> <C-W><C-H>
 nnoremap <C-K> <C-W><C-J>
 nnoremap <C-L> <C-W><C-K>
-nnoremap <C-Ñ> <C-W><C-L>
+"nnoremap <C-Ñ> <C-W><C-L> This does not work :( nvim issue #8343
 
 " Toggle absolute or relative line number
 

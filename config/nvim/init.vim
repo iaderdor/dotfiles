@@ -22,9 +22,13 @@ set noswapfile
 set nobackup
 
 
+syntax on
+filetype plugin on
+set path+=**                " When searching, look also into the subfolders
+set wildmenu
+
 " 3. Maps
 source $HOME/.config/nvim/maps.vim
-
 
 " 4. Indentation options
 " TODO: Split in another file. Different options to different languages
@@ -43,7 +47,6 @@ set number              " show line numbers
 set showmatch           " higlight matching parentheses and brackets
 set wildmenu
 
-syntax on
 
 
 " 5. Status bar
