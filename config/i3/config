@@ -13,6 +13,8 @@ font pango:FiraCode Regular 8
 # Use Mouse+$mod to drag floating windows to their wanted position
 #floating_modifier $mod
 
+# --- Execute at start ---
+exec --no-startup-id redshift-gtk
 
 # --- App bindings ---
 bindsym $mod+t exec konsole
