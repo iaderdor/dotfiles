@@ -5,7 +5,7 @@
 # Variables
 LATEX_COMPILER="xelatex"
 LATEX_OUTPUT="pdf"
-
+XDG_CONFIG_HOME=~/.config
 
 # Oh-my-zsh things
 export ZSH=$HOME/.oh-my-zsh

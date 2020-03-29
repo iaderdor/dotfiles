@@ -15,9 +15,11 @@ font pango:FiraCode Regular 8
 
 # --- Execute at start ---
 exec --no-startup-id redshift-gtk
+exec blueman-applet
+exec megasync 
 
 # --- App bindings ---
-bindsym $mod+t exec konsole
+bindsym $mod+t exec kitty
 bindsym $mod+space exec dmenu_run
 bindsym Print exec spectacle
 
@@ -99,7 +101,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you want to exit i3?.' -B 'Yes, exit i3' 'i3-msg exit'"
 bindsym $mod+Shift+p exec "i3lock-fancy"
 
 # --- Resize mode ---
@@ -133,15 +135,6 @@ exec_always --no-startup-id xmodmap -e "clear lock"
 exec_always --no-startup-id xmodmap -e "keycode 9 = Caps_Lock NoSymbol Caps_Lock"
 exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
 exec_always --no-startup-id xmodmap -e "keycode 135 = Super_L"
-
-# --- Impr pant ---
-
-
-
-# --- Starting apps ---
-exec blueman-applet
-exec megasync 
-
 
 # --- Loads bar ---
 bar { 

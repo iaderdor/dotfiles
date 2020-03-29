@@ -5,10 +5,11 @@ Hi! Those are the very dotfiles I use.
 
 I'm actually storing here dotfiles for the following programs:
 
+ - git
+ - i3 and i3 status bar
+ - kitty
  - neovim
  - tmux
- - i3 and i3 status bar
- - git
  - yaourt
  - zsh
 

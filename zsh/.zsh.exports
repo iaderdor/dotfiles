@@ -19,3 +19,11 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
     export EDITOR='nvim'
 fi
+
+# Completion for kitty
+
+if [[ -f /usr/bin/kitty ]]; then
+    autoload -Uz compinit
+    compinit
+    kitty + complete setup zsh | source /dev/stdin
+fi
