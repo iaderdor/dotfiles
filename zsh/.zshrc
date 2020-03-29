@@ -6,6 +6,9 @@
 LATEX_COMPILER="xelatex"
 LATEX_OUTPUT="pdf"
 XDG_CONFIG_HOME=~/.config
+XDG_CACHE_HOME=~/.cache
+XDG_DATA_HOME=~/.local/share
+
 
 # Oh-my-zsh things
 export ZSH=$HOME/.oh-my-zsh

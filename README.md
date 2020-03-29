@@ -40,6 +40,7 @@ Here we go with the typical things I'd want to add to my dotfiles:
  - Work on moving all configuration files to `.conf` folder.
  - Bootstrapping the installation of packages I need.
  - Solving the issues with the magic triangles of tmux changing colors.
+ - Add icons to the repo.
 
 ## Licence
 
