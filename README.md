@@ -3,22 +3,23 @@
 
 Hi! Those are the very dotfiles I use.
 
-I'm actually using storing here my dotfiles for the following programs:
+I'm actually storing here dotfiles for the following programs:
 
- - atom
  - neovim
  - tmux
  - i3 and i3 status bar
  - git
+ - yaourt
+ - zsh
 
-Moreover, there's a script which install all the fonts I want to use from github repos.
+Moreover, there's a script which install all the fonts I want to use from github repos (but I think I'll change it).
 
 ## Use
 
 My dotfiles are meant to be managed with stow. Use the next commands to install the dotfiles:
 
 ```
-stow -v -t ~ zsh tmux git yaourt
+stow -v -t ~ zsh git yaourt
 stow -v -t ~/.config config
 ```
 
@@ -35,8 +36,9 @@ This will download and install all the fonts I've chosen for you.
 
 Here we go with the typical things I'd want to add to my dotfiles:
 
- - Remove the config folder and divide it in a *folder per app* basis.
- - Look for how automatizing installing packagges for the distros I use.
+ - Work on moving all configuration files to `.conf` folder.
+ - Bootstrapping the installation of packages I need.
+ - Solving the issues with the magic triangles of tmux changing colors.
 
 ## Licence
 

@@ -11,13 +11,14 @@
 alias lt="$LATEX_COMPILER --interaction=nonstopmode --synctex=1 --output-directory=$LATEX_OUTPUT"
 alias lth="$LATEX_COMPILER --interaction=nonstopmode --synctex=1"
 
-# Aliases for folders
-#alias proyectos="cd ~/Proyectos"
-
 # Alias for checking if neovim is installed
 if [ -f "/usr/bin/nvim" ]; then
   alias vim="nvim"
 fi
+
+# I want tmux files inside .config
+alias tmux="tmux -f ~/.config/tmux/tmux.conf"
+
 
 # Other aliases
 alias clipboard="xclip -sel clip"
