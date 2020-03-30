@@ -1,6 +1,12 @@
 #
-# ikanian's .zshrc file
-#
+#              _              
+#             | |           
+#      _______| |__  _ __ ___ 
+#     |_  / __| '_ \| '__/ __|
+#    _ / /\__ \ | | | | | (__ 
+#   (_)___|___/_| |_|_|  \___| from iaderdor
+#                             
+#  
 
 # Variables
 LATEX_COMPILER="xelatex"
