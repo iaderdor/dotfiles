@@ -30,7 +30,11 @@ set wildmenu
 " 3. Maps
 source $HOME/.config/nvim/maps.vim
 
-" 4. Indentation options
+" 4. Colors
+set termguicolors
+colorscheme NeoSolarized
+
+" 5. Indentation options
 " TODO: Split in another file. Different options to different languages
 set autoindent              " autoindent always ON.
 set expandtab               " expand tabs
