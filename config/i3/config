@@ -13,10 +13,8 @@
 # --- Some definitions ---
 set $mod Mod4
 
-
 # --- Font ---
 font pango:FiraCode Regular 8
-
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 #floating_modifier $mod
@@ -30,6 +28,9 @@ exec megasync
 bindsym $mod+t exec kitty
 bindsym $mod+space exec dmenu_run
 bindsym Print exec spectacle
+
+# --- Remove window title ---
+default_border pixel
 
 # --- Basic bindings ---
 bindsym $mod+Shift+q kill
@@ -70,6 +71,10 @@ bindsym $mod+r mode "resize"
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 2%+ 
 bindsym XF86AudioLowerVolume exec amixer -q set Master 2%-
 bindsym XF86AudioMute exec amixer -q set Master toggle
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioStop exec playerctl stop
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86MonBrightnessUp exec xbacklight -inc 1
 bindsym XF86MonBrightnessDown exec xbacklight -dec 1
 exec xinput set-prop 11 288 1
