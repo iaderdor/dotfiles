@@ -19,6 +19,10 @@ else
 fi
 
 cd $HOME
+XDG_CONFIG_HOME=~/.config
+XDG_CACHE_HOME=~/.cache
+XDG_DATA_HOME=~/.local/share
+export ZSH=$XDG_DATA_HOME/oh-my-zsh
 
 printf "\n\nUpdating the system\n"
 sudo pacman -Syu --noconfirm
@@ -26,7 +30,7 @@ sudo pacman -Syu --noconfirm
 printf "\n\nInstalling iaderdor dotfiles packages\n"
 sudo pacman -S --noconfirm $PKG
 
-printf "\n\nInstaling yay\n"
+printf "\n\nInstalling yay\n"
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -sic --noconfirm
@@ -47,10 +51,14 @@ printf "\n\nInstalling dotfiles\n"
 mkdir -p $HOME"/.config"
 cd $DOTFILES_DIR
 stow -v -t $HOME zsh git
-stow -v -t $DOTFILES_DIR config
+stow -v -t $XDG_CONFIG_HOME config
 
 printf "\n\nInstalling oh-my-zsh"
+
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+rm $HOME"/.zshrc"
+mv $HOME"/.zshrc.pre-oh-my-zsh" $HOME"/.zshrc"
 
 printf "\n\nInstalling rbenv\n"
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash
@@ -64,5 +72,6 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 
 printf "\n\nUpdating vim\n"
 nvim +'PlugInstall --sync' +qall
+
 gem install solargraph rubocop
 npm install --save-dev stylelint stylelint-config-standard

@@ -16,7 +16,19 @@ Moreover, there's a script which install all the fonts I want to use from github
 
 ## Use
 
-My dotfiles are meant to be managed with stow. Use the next commands to install the dotfiles:
+### Automated installation script
+
+You can install all by running this command in an archlinux or manjaro system:
+
+```
+curl -fL https://raw.githubusercontent.com/iaderdor/dotfiles/master/install.sh | bashcurl -fL https://raw.githubusercontent.com/iaderdor/dotfiles/master/install.sh | bash
+```
+
+Please, take care that your user must to be able to use the sudo command succesfully. 
+
+### Manually install
+
+First, you should have installed the apps described at the start of this readme. Then, be aware that my dotfiles are meant to be managed with stow. Use the next commands to install the dotfiles:
 
 ```
 stow -v -t ~ zsh git
@@ -31,6 +43,21 @@ ruby setup_fonts.rb
 
 This will download and install all the fonts I've chosen for you.
 
+## Test
+
+Test the installation script by using docker. You should first build the image,
+run and then, get into the container.
+
+```
+docker build --tag=testdotfiles .
+docker container run -itd --name testdotfiles_con testdotfiles
+docker exec -it testdotfiles_con bash
+```
+Once inside, launch the `./install.sh` script provided and wait. When asked to write a password, it is `verysafepassword`.
+You should check:
+ - There is no error when installing things.
+ - Neovim has all its plugins installed.
+ - .oh-my-zsh folder is in `~/.local/share` and not in `~`.
 
 ## TODO
 
@@ -38,6 +65,7 @@ Here we go with the typical things I'd want to add to my dotfiles:
 
  - [ ] Work on moving all configuration files to `.conf` folder.
  - [x] Bootstrapping the installation of the dotfiles.
+ - [ ] Add test to check if all was installed ok.
  - [ ] Solving the issues with the magic triangles of tmux changing colors.
  - [ ] Add icons to the repo.
 
