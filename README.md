@@ -10,7 +10,6 @@ I'm actually storing here dotfiles for the following programs:
  - kitty
  - neovim
  - tmux
- - yaourt
  - zsh
 
 Moreover, there's a script which install all the fonts I want to use from github repos (but I think I'll change it).
@@ -20,7 +19,7 @@ Moreover, there's a script which install all the fonts I want to use from github
 My dotfiles are meant to be managed with stow. Use the next commands to install the dotfiles:
 
 ```
-stow -v -t ~ zsh git yaourt
+stow -v -t ~ zsh git
 stow -v -t ~/.config config
 ```
 
@@ -37,10 +36,10 @@ This will download and install all the fonts I've chosen for you.
 
 Here we go with the typical things I'd want to add to my dotfiles:
 
- - Work on moving all configuration files to `.conf` folder.
- - Bootstrapping the installation of packages I need.
- - Solving the issues with the magic triangles of tmux changing colors.
- - Add icons to the repo.
+ - [] Work on moving all configuration files to `.conf` folder.
+ - [x] Bootstrapping the installation of the dotfiles.
+ - [] Solving the issues with the magic triangles of tmux changing colors.
+ - [] Add icons to the repo.
 
 ## Licence
 

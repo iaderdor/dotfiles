@@ -17,12 +17,12 @@ XDG_DATA_HOME=~/.local/share
 
 
 # Oh-my-zsh things
-export ZSH=$HOME/.oh-my-zsh
+export ZSH=$XDG_DATA_HOME/oh-my-zsh
 ZSH_THEME="agnoster"
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="yyy/mm/dd"
-plugins=(gpg-agent)
+plugins=(gpg-agent docker)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -35,6 +35,10 @@ source ~/.zsh.exports
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
