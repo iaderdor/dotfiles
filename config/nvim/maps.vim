@@ -44,3 +44,7 @@ nnoremap <F4> :call ToggleRelativeLineNumber()<CR>
 
 " Mouse control
 set mouse=a
+
+" Snippets
+nnoremap ,rbclass :-1read $HOME/.local/share/nvim/snippets/rubyclass.rb<CR>gg4kO
+nnoremap ,html :-1read $HOME/.local/share/nvim/snippets/skeleton.html<CR>gg4k11ñi
