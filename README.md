@@ -36,10 +36,10 @@ This will download and install all the fonts I've chosen for you.
 
 Here we go with the typical things I'd want to add to my dotfiles:
 
- - [] Work on moving all configuration files to `.conf` folder.
+ - [ ] Work on moving all configuration files to `.conf` folder.
  - [x] Bootstrapping the installation of the dotfiles.
- - [] Solving the issues with the magic triangles of tmux changing colors.
- - [] Add icons to the repo.
+ - [ ] Solving the issues with the magic triangles of tmux changing colors.
+ - [ ] Add icons to the repo.
 
 ## Licence
 
