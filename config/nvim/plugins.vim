@@ -2,12 +2,16 @@
 " Plugins for neovim. Loaded with Vim-Plug 
 "
 
+
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'scrooloose/nerdtree' " nerdtree is <3
-Plug 'plasticboy/vim-markdown'
-Plug 'junegunn/goyo.vim'
-Plug 'zchee/deoplete-jedi'
-Plug 'ngmy/vim-rubocop'
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-endwise'
+Plug 'junegunn/goyo.vim'          " Distraction free writing
+
+"
+Plug 'dense-analysis/ale'
+
 
 call plug#end()
