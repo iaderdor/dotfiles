@@ -14,6 +14,9 @@ alias lth="$LATEX_COMPILER --interaction=nonstopmode --synctex=1"
 # Alias for checking if neovim is installed
 if [ -f "/usr/bin/nvim" ]; then
   alias vim="nvim"
+elif [ -f "/usr/bin/vim" ]; then
+  alias nvim="vim"
+  alias vim="vim -S ~/.config/nvim/init.vim"
 fi
 
 # I want tmux files inside .config
