@@ -21,7 +21,7 @@ Moreover, there's a script which install all the fonts I want to use from github
 You can install all by running this command in an archlinux or manjaro system:
 
 ```
-curl -fL https://raw.githubusercontent.com/iaderdor/dotfiles/master/install.sh | bashcurl -fL https://raw.githubusercontent.com/iaderdor/dotfiles/master/install.sh | bash
+curl -fL https://raw.githubusercontent.com/iaderdor/dotfiles/master/install.sh | bash
 ```
 
 Please, take care that your user must to be able to use the sudo command succesfully. 
