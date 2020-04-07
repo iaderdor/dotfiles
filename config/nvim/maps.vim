@@ -45,9 +45,6 @@ nnoremap <F4> :call ToggleRelativeLineNumber()<CR>
 " Change emmet leader
 let g:user_emmet_leader_key='<C-S>'
 
-" Mouse control
-set mouse=a
-
 " Snippets
 nnoremap ,rbclass :-1read $HOME/.local/share/nvim/snippets/rubyclass.rb<CR>gg4kO
 nnoremap ,html :-1read $HOME/.local/share/nvim/snippets/skeleton.html<CR>gg4k11ñi

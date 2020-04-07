@@ -21,7 +21,7 @@ set history=1000
 set noswapfile
 set nobackup
 set encoding=utf-8
-
+set mouse=a
 
 " 3. Maps
 source $HOME/.config/nvim/maps.vim
