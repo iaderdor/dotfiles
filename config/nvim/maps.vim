@@ -21,6 +21,9 @@ noremap ñ l
 noremap <Bar> <Nop>
 noremap ç <Bar>
 
+" Place the search keys where they should be in a normal qwerty keyboard
+noremap - /
+noremap _ ?
 
 " Change between split windows with jklñ
 nnoremap <C-J> <C-W><C-H>
