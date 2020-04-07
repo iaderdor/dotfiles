@@ -17,7 +17,7 @@ noremap k j
 noremap l k
 noremap ñ l
 
-" I just found annoying Alt Gr + 1 = | just to get bol. Remap to ç
+" I just found annoying Alt Gr + 1 = | just to get col. Remap to ç
 noremap <Bar> <Nop>
 noremap ç <Bar>
 
@@ -41,6 +41,9 @@ function! ToggleRelativeLineNumber()
 endfunction
 
 nnoremap <F4> :call ToggleRelativeLineNumber()<CR>
+
+" Change emmet leader
+let g:user_emmet_leader_key='<C-S>'
 
 " Mouse control
 set mouse=a
