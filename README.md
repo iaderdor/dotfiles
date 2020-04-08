@@ -11,6 +11,7 @@ I'm actually storing here dotfiles for the following programs:
  - neovim
  - tmux
  - zsh
+ - autorandr
 
 Moreover, there's a script which install all the fonts I want to use from github repos (but I think I'll change it).
 
@@ -33,6 +34,7 @@ First, you should have installed the apps described at the start of this readme.
 ```
 stow -v -t ~ zsh git
 stow -v -t ~/.config config
+stow -v -t ~/.local local
 ```
 
 Then, if you want to install all the fonts I use, you must `cd` into the base folder of the repo and execute the following command:
