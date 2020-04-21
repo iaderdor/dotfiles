@@ -5,3 +5,4 @@
 
 source ~/.zshrc
 autorandr single
+bg-feh
