@@ -12,6 +12,7 @@ Plug 'junegunn/goyo.vim'          " Distraction free writing
 
 "
 Plug 'dense-analysis/ale'
-
+Plug 'mattn/emmet-vim'
+Plug 'ap/vim-css-color'
 
 call plug#end()
