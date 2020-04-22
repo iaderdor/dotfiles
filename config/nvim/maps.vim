@@ -6,6 +6,10 @@
 " NERDTree
 map <F5> :NERDTreeToggle<CR>
 
+" Fuzzy File Finder
+map º  :Files<CR>
+let g:fzf_layout = { 'down': '~10%' }
+
 " Disable arrow keys and remap hjkl keys to jklñ
 noremap <Up> <Nop>
 noremap <Down> <Nop>

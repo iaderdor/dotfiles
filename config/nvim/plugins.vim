@@ -9,7 +9,8 @@ Plug 'scrooloose/nerdtree' " nerdtree is <3
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-endwise'
 Plug 'junegunn/goyo.vim'          " Distraction free writing
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim' 
 
 "
 Plug 'dense-analysis/ale'
