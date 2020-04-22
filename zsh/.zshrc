@@ -22,7 +22,7 @@ ZSH_THEME="agnoster"
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="yyy/mm/dd"
-plugins=(gpg-agent docker)
+plugins=(gpg-agent docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
