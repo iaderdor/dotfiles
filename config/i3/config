@@ -30,7 +30,7 @@ bindsym $mod+space exec dmenu_run
 bindsym Print exec spectacle
 
 # --- Remove window title ---
-default_border pixel
+default_border none
 
 # --- Basic bindings ---
 bindsym $mod+Shift+q kill
