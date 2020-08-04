@@ -59,21 +59,5 @@ set path+=**            " When searching, look also into the subfolders
 " 7. Statusbar
 source $HOME/.config/nvim/statusbar.vim
 
-" 8. Linters
-
-let g:ale_linters_explicit = 1
-
-let g:ale_linters = {
-\   'ruby': ['rubocop','solargraph'],
-\   'html': ['stylelint'],
-\   'css': ['stylelint'],
-\   'scss': ['stylelint']
-\}
-
-let g:ale_fixers = {
-\   'ruby': ['rubocop'],
-\   'html': ['stylelint'],
-\   'css': ['stylelint'],
-\   'scss': ['stylelint'],
-\}
-let g:ale_fix_on_save = 1
+" 8. Linters and fixers config
+source $HOME/.config/nvim/linters.vim
