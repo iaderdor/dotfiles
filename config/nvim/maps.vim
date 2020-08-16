@@ -55,3 +55,4 @@ let g:user_emmet_leader_key='<C-S>'
 " Snippets
 nnoremap ,rbclass :-1read $HOME/.local/share/nvim/snippets/rubyclass.rb<CR>gg4kO
 nnoremap ,html :-1read $HOME/.local/share/nvim/snippets/skeleton.html<CR>gg4k11ñi
+nnoremap ,readme :-1read $HOME/.local/share/nvim/snippets/readme.md<CR>gg
