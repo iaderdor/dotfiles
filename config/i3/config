@@ -145,6 +145,19 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
+# --- Move mode ---
+bindsym $mod+m mode "move" focus floating
+mode "move" {
+        bindsym j move  left
+        bindsym k move  down
+        bindsym l move up
+        bindsym ntilde move right
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+m mode "default"
+}
+
 
 # --- Swap Esc and Caps_Lock ---
 exec_always --no-startup-id xmodmap -e "clear lock"
