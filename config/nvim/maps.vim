@@ -38,12 +38,10 @@ nnoremap <C-L> <C-W><C-K>
 " Toggle absolute or relative line number
 
 function! ToggleRelativeLineNumber()
-  if(&nu == 1)
-    set nu!
+  if(&rnu == 0)
       set rnu
     else
-      set nornu
-      set nu
+      set nornu!
   endif
 endfunction
 
