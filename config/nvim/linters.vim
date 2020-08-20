@@ -4,8 +4,8 @@
 
 " Warning and error signs
 
-let g:ale_sign_error = '->'
-let g:ale_sign_warning = '⚠️'
+let g:ale_sign_error = '=>'
+let g:ale_sign_warning = '->' 
 
 " Set linters and fixers to be used
 
@@ -13,6 +13,7 @@ let g:ale_linters_explicit = 1
 
 let g:ale_linters = {
 \   'ruby': ['rubocop','solargraph'],
+\   'python': ['flake8'],
 \   'html': ['eslint'],
 \   'css': ['eslint'],
 \   'scss': ['eslint'],
@@ -21,6 +22,7 @@ let g:ale_linters = {
 
 let g:ale_fixers = {
 \   'ruby': ['rubocop'],
+\   'python': ['black'],
 \   'html': ['prettier'],
 \   'css': ['prettier'],
 \   'scss': ['prettier'],
