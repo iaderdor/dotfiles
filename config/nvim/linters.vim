@@ -22,7 +22,7 @@ let g:ale_linters = {
 
 let g:ale_fixers = {
 \   'ruby': ['rubocop'],
-\   'python': ['black'],
+\   'python': ['autopep8'],
 \   'html': ['prettier'],
 \   'css': ['prettier'],
 \   'scss': ['prettier'],
