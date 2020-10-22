@@ -16,5 +16,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'dense-analysis/ale'
 Plug 'mattn/emmet-vim'
 Plug 'ap/vim-css-color'
+Plug 'gregsexton/matchtag'      " Highlight html/xml tags
 
 call plug#end()
