@@ -23,6 +23,7 @@ font pango:FiraCode Regular 8
 exec --no-startup-id redshift-gtk
 exec blueman-applet
 exec megasync 
+exec birdtray
 
 # --- App bindings ---
 bindsym $mod+t exec kitty
