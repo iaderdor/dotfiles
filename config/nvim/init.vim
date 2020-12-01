@@ -50,6 +50,7 @@ set showmode            " always show which more are we in
 set laststatus=2        " always show statusbar
 
 set number              " show line numbers
+set rnu                 " show relative line numbers
 set showmatch           " higlight matching parentheses and brackets
 set wildmenu            " enable visual wildmenu
 
