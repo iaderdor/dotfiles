@@ -57,8 +57,8 @@ set wildmenu            " enable visual wildmenu
 set path+=**            " When searching, look also into the subfolders
 
 
-" 7. Statusbar
-source $HOME/.config/nvim/statusbar.vim
+" 7. Statusbar by vim-airline
+source $HOME/.config/nvim/airline.vim
 
 " 8. Linters and fixers config
 source $HOME/.config/nvim/linters.vim

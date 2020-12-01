@@ -17,5 +17,7 @@ Plug 'dense-analysis/ale'
 Plug 'mattn/emmet-vim'
 Plug 'ap/vim-css-color'
 Plug 'gregsexton/matchtag'      " Highlight html/xml tags
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
