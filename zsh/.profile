@@ -3,6 +3,6 @@
 #
 #
 
-source ~/.zshrc
-autorandr single
+#source ~/.zshrc
+autorandr -c
 bg-feh

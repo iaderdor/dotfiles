@@ -17,7 +17,8 @@ let g:ale_linters = {
 \   'html': ['eslint'],
 \   'css': ['eslint'],
 \   'scss': ['eslint'],
-\   'javascript': ['eslint']
+\   'javascript': ['eslint'],
+\   'cpp': ['cc','clangtidy']
 \}
 
 let g:ale_fixers = {
@@ -30,7 +31,14 @@ let g:ale_fixers = {
 \}
 
 let g:ale_fix_on_save = 1
+let g:ale_ruby_rubocop_auto_correct_all = 1
 
 
 " Use ALE completion
 let g:ale_completion_enabled = 1
+
+
+" JS
+
+let g:ale_javascript_eslint_options="-c ~/.config/eslintrc.json"
+let g:ale_javascript_prettier_use_local_config = 1

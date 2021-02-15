@@ -19,9 +19,15 @@ elif [ -f "/usr/bin/vim" ]; then
   alias vim="vim -S ~/.config/nvim/init.vim"
 fi
 
+# Alias for idf.py
+
+alias get_idf='. $HOME/esp/esp-idf/export.sh'
+
 # I want tmux files inside .config
 alias tmux="tmux -f ~/.config/tmux/tmux.conf"
 
 
 # Other aliases
 alias clipboard="xclip -sel clip"
+alias xbrightness="xrandr --output eDP1 --brightness"
+alias webserver="~/node_modules/live-server/live-server.js -q . &"
