@@ -40,5 +40,6 @@ let g:ale_completion_enabled = 1
 
 " JS
 
-let g:ale_javascript_eslint_options="-c ~/.config/eslintrc.json"
+let g:ale_javascript_eslint_options = "-c ~/.config/eslintrc.json"
 let g:ale_javascript_prettier_use_local_config = 1
+let g:ale_javascript_prettier_options = "--config ~/.config/prettierrc.json"
