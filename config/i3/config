@@ -22,6 +22,7 @@ font pango:FiraCode Regular 8
 # --- Execute at start ---
 exec --no-startup-id redshift-gtk
 exec blueman-applet
+exec nm-applet
 exec megasync 
 exec birdtray
 
